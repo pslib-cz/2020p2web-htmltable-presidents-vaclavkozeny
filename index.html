@@ -16,100 +16,107 @@
       .presidents .cr {background-color: #90CAF9;}
       .presidents .sr {background-color: #F8BBD0;}
       table{border-collapse: collapse;}
+      .presidents td.bezprez{color: gray;}
     </style>
   </head>
   <body>
     <table class="presidents">
       <caption>Seznam prezidentů ČR a SR od roku 1989</caption>
-
+      <colgroup>
+        <col class="roky">
+        <col class="roky">
+        <col class="cr">
+        <col class="sr">
+        <col>
+      </colgroup>
       <thead>
         <tr>
-          <th class="roky" >Od</th>
-          <th class="roky">Do</th>
-          <th class="cr">Česko</th>
-          <th class="sr">Slovensko</th>
+          <th >Od</th>
+          <th >Do</th>
+          <th >Česko</th>
+          <th >Slovensko</th>
           <th >Poznámka</th>
         </tr>
       </thead>
       <tbody class="komuniste">
         <tr>
-          <th >1975</th>
-          <th >1989</th>
+          <th>1975</th>
+          <th>1989</th>
           <td colspan="2">Gustav Husák</td>
           <td></td>
         </tr>
       </tbody>
       <tbody class="spolecne">
         <tr>
-          <th >1989</th>
-          <th >1990</th>
+          <th>1989</th>
+          <th>1990</th>
           <td colspan="2" rowspan="2">Václav Havel</td>
           <td>Zvolen federálním shromáždění (s převahou poslanců KSČ) </td>
         </tr>
         <tr>
-          <th >1990</th>
-          <th >1992</th>
+          <th>1990</th>
+          <th>1992</th>
           
           <td>31. prosince 1992 zaniká Česko-Slovenká Federtivní Republika</td>
       </tr>
       </tbody>
       <tbody>
         <tr>
-          <th class="roky">1993</th>
-          <th class="roky">1998</th>
-          <td rowspan="3" class="cr">Václav Havel</td>
-          <td class="sr">Michal Kováč</td>
+          <th>1993</th>
+          <th>1998</th>
+          <td rowspan="3">Václav Havel</td>
+          <td>Michal Kováč</td>
+          <td></td>
+        </tr>
+        <tr >
+          <th>1998</th>
+          <th>1999</th>
+          <td class="bezprez">bez prezidenta</td>
+          <td class="bezprez">Na Slovenku v této době byli pověřeni prezideskými pravomocemi tehdejší premiéři</td>
+        </tr>
+        <tr>
+          <th>1999</th>
+          <th>2003</th>
+          <td rowspan="2" >Rudolf Schuster</td>
           <td></td>
         </tr>
         <tr>
-          <th class="roky">1998</th>
-          <th class="roky">1999</th>
-          <td class="sr">bez prezidenta</td>
-          <td>Na Slovenku v této době byli pověřeni prezideskými pravomocemi tehdejší premiéři</td>
-        </tr>
-        <tr>
-          <th class="roky">1999</th>
-          <th class="roky">2003</th>
-          <td rowspan="2" class="sr">Rudolf Schuster</td>
+          <th>2003</th>
+          <th>2004</th>
+          <td rowspan="2" >Václav Klaus</td>
           <td></td>
         </tr>
         <tr>
-          <th class="roky">2003</th>
-          <th class="roky">2004</th>
-          <td rowspan="2" class="cr">Václav Klaus</td>
+          <th>2004</th>
+          <th>2013</th>
+          <td rowspan="2" >Ivan Gašparrovič</td>
           <td></td>
         </tr>
         <tr>
-          <th class="roky">2004</th>
-          <th class="roky">2013</th>
-          <td rowspan="2" class="sr">Ivan Gašparrovič</td>
+          <th>2013</th>
+          <th>2014</th>
+          <td rowspan="3" >Miloš Zeman</td>
           <td></td>
         </tr>
         <tr>
-          <th class="roky">2013</th>
-          <th class="roky">2014</th>
-          <td rowspan="3" class="cr">Miloš Zeman</td>
+          <th>2014</th>
+          <th>2019</th>
+          <td>Andrej Kiska</td>
           <td></td>
         </tr>
         <tr>
-          <th class="roky">2014</th>
-          <th class="roky">2019</th>
-          <td class="sr">Andrej Kiska</td>
-          <td></td>
-        </tr>
-        <tr>
-          <th class="roky">2019</th>
-          <th class="roky">dosud</th>
-          <td class="sr">Zuzana Čautová</td>
+          <th>2019</th>
+          <th>dosud</th>
+          <td>Zuzana Čautová</td>
           <td></td>
         </tr>
 
       </tbody>
       <tfoot>
         <tr>
-          <th colspan="2" class="roky">Počet</th>
-          <td class="cr">2+3</td>
-          <td class="sr">2+5</td>
+          <th colspan="2" >Počet</th>
+          <td>2+3</td>
+          <td>2+5</td>
           <td></td>
         </tr>
       </tfoot>
